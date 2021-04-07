@@ -1,6 +1,4 @@
-% 17BEC0084 Shambhavi Awasthi
-% 17BEC0619 Viraj Chokhany
-% wmc project B1 slot
+
 
 % Function to test an estimation function on a specific mobility pattern
 % Testing the estimation function passed in parameter as a function handle with the mobility pattern also specified as a function handle.
