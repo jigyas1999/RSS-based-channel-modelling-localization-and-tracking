@@ -1,6 +1,3 @@
-% 17BEC0084 Shambhavi Awasthi
-% 17BEC0619 Viraj Chokhany
-% wmc project B1 slot
 
 % function to estimate distances from the source to the anchor nodes using the lognomal path loss model
 % rss: vector of RSS from 4 anchor nodes
