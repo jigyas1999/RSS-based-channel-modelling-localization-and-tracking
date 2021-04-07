@@ -1,6 +1,4 @@
-% 17BEC0084 Shambhavi Awasthi
-% 17BEC0619 Viraj Chokhany
-% wmc project B1 slot
+
 
 clc
 close all
@@ -11,6 +9,8 @@ estimation_functions = {@lls @wls};
 
 % Mobility patterns
 mob_patterns = {@random @straight_line @square};
+
+filters={@set_noise};
 
 % Specific parameters relative to each mobility pattern
 mob_patterns_parameters = {
@@ -72,7 +72,7 @@ figure('Name', 'Estimation functions - 17BEC0084 17BEC0619')
 for i = 1:nb_est_func;
         subplot(nb_est_func ,1,i)
         for k = 1:nb_mob_patterns;
-            h = cdfplot(errors{(i -1)+ (k -1) * nb_est_func+j});
+            h = cdfplot(errors{(i )+ (k -1) * nb_est_func+j});
             set(h,'LineWidth',1.5, 'DisplayName', func2str(mob_patterns{k}), 'Color', cc(k, :))
             hold on
         end
@@ -81,7 +81,7 @@ for i = 1:nb_est_func;
         ylabel('CDF')
         legend('show')
         axis([0 450 0 1.2])
-        title(strcat(func2str(estimation_functions{i}),' estimation function - 17BEC0084 17BEC619'))
+        title(strcat(func2str(estimation_functions{i}),' estimation function'))
 end
 
 figure('Name', 'Mobility patterns - 17BEC0084 17BEC0619')
@@ -97,5 +97,5 @@ for i = 1:nb_mob_patterns
     ylabel('CDF')
     legend('show')
     axis([0 450 0 1.2])
-    title(strcat(func2str(mob_patterns{i}),' mobility pattern - 17BEC0084 17BEC619'))
+    title(strcat(func2str(mob_patterns{i}),' mobility pattern '))
 end
