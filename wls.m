@@ -1,6 +1,3 @@
-% 17BEC0084 Shambhavi Awasthi
-% 17BEC0619 Viraj Chokhany
-% wmc project B1 slot
 
 % Function to compute the estimated position of a mobile device using WLS
 % base_stations: coordinates of known base stations, one coordinate per line
