@@ -1,6 +1,4 @@
-% 17BEC0084 Shambhavi Awasthi
-% 17BEC0619 Viraj Chokhany
-% wmc project B1 slot
+
 
 % function to compute the distance between the actual and estimated coordinates
 % this determines the error of distance
