@@ -1,6 +1,4 @@
-% 17BEC0084 Shambhavi Awasthi
-% 17BEC0619 Viraj Chokhany
-% wmc project B1 slot
+
 
 % function to generate random mobility patterns
 % it returns two vectors  Xs and Ys for the source nodes
