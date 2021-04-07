@@ -1,6 +1,4 @@
-% 17BEC0084 Shambhavi Awasthi
-% 17BEC0619 Viraj Chokhany
-% wmc project B1 slot
+
 
 % Function to compute Euclidean distance from the source to 4 anchor nodes
 % a_x: x coordinates of the anchors
