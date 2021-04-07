@@ -1,6 +1,3 @@
-% 17BEC0084 Shambhavi Awasthi
-% 17BEC0619 Viraj Chokhany
-% wmc project B1 slot
 
 % This function computes euclidean distance between two points
 % x1, y1 coordinates of the first point
