@@ -1,6 +1,3 @@
-% 17BEC0084 Shambhavi Awasthi
-% 17BEC0619 Viraj Chokhany
-% wmc project B1 slot
 
 % linear mobility pattern generating function for source nodes
 % nb_locations = 200
