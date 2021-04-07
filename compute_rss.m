@@ -1,6 +1,4 @@
-% 17BEC0084 Shambhavi Awasthi
-% 17BEC0619 Viraj Chokhany
-% wmc project B1 slot
+
 
 % Function to compute the received signal strength from the path loss model
 % The received signal strength (RSS) is the strength of a received signal measured at the receiver's antenna. 
