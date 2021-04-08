@@ -72,7 +72,7 @@ figure('Name', 'Estimation functions - 17BEC0084 17BEC0619')
 for i = 1:nb_est_func;
         subplot(nb_est_func ,1,i)
         for k = 1:nb_mob_patterns;
-            h = cdfplot(errors{(i )+ (k -1) * nb_est_func+j});
+            h = cdfplot(errors{(i )+ (k -1) * nb_est_func});
             set(h,'LineWidth',1.5, 'DisplayName', func2str(mob_patterns{k}), 'Color', cc(k, :))
             hold on
         end
